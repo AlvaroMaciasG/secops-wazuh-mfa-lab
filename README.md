@@ -2,16 +2,16 @@
 
 > **Context:** This repository contains the documentation and configurations for my Master's Degree Final Project in Cybersecurity. It demonstrates an end-to-end defensible network architecture, focusing on Security Operations (SecOps), centralized telemetry, and access control.
 
-## 🎯 Overview
+##  Overview
 The objective of this lab is to build, monitor, and defend an isolated virtualized infrastructure. Instead of just focusing on offensive penetration testing, this project emphasizes the **Blue Team** perspective: ingesting logs into a SIEM, writing custom detection rules, responding to incidents, and hardening Linux servers with strict Identity and Access Management (IAM) controls.
 
-## 🛠️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 * **Observability & SIEM:** Wazuh (Manager, Indexer, Dashboard) deployed via Docker.
 * **Linux IAM & Security:** Pluggable Authentication Modules (PAM), Google Authenticator (MFA), UFW (Firewall), Fail2Ban.
 * **Vulnerability Management:** OpenVAS (GVM), OWASP ZAP.
 * **Threat Simulation:** Kali Linux, Metasploit, Nmap, Python.
 
-## 🛡️ Key Defenses & Implementations
+##  Key Defenses & Implementations
 
 ### 1. Identity & Access Management (Linux IAM)
 To protect the infrastructure against unauthorized access and brute-force attacks, strict IAM controls were implemented on the Ubuntu servers:
